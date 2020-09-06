@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Astro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='normalize.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <!--Grid wrapper, måste använda-->
+    <div class="wrapper">
+        <!--navigations meny-->
+        <nav class="navmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!--formulär, (kom i kontakt med mig, lämna uppgifter) required-->
+        <form class="form">
+            <label for="firstName" class="first-name" required>First Name</label>
+            <input id="firstName" type="text" required>
+
+            <label for="lastName" class="last-name">Last Name</label>
+            <input id="lastName" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Leave me a message..."></textarea>
+
+            <button>Send</button>
+        </form>
+
+        <footer>
+            <p>&copy; Astro 2020</p>
+        </footer>
+        
+    </div>
+</body>
+</html>
